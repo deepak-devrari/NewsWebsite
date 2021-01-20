@@ -1,0 +1,95 @@
+<head>
+    <title>FS News</title>
+
+    <link rel=icon href="newspaper-regular.svg">
+
+    <link rel="stylesheet" href="styleSheet.css">
+    <script src="API_Handler.js"></script>
+    <script src="https://kit.fontawesome.com/987a7a8806.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <h1>FS News</h1> -->
+
+<div class="main_parent_div">
+    <div class="logo_nav_parent_div">
+        <div class="logo_div">
+            <i class="far fa-newspaper"></i>
+        <h2>FS News</h2>
+        </div>
+        <div class="nav_bar_div">
+            <a href="#" onclick="AlertMsg('Home')">Home</a>
+            <a href="#" onclick="AlertMsg('About Us')">About Us</a>
+            <a href="#" onclick="AlertMsg('Contact Us')">Contact Us</a>
+        </div>
+        <div class="social_medial_buttos_div">
+            <i class="fab fa-youtube-square" onclick="OnSocialButtonClicked('YouTube')"></i>
+            <i class="fab fa-twitter-square" onclick="OnSocialButtonClicked('Twitter')"></i>
+            <i class="fab fa-facebook-square" onclick="OnSocialButtonClicked('Facebook')"></i>
+        </div>
+    </div>
+    <div class="flash_news_parent_div">
+        <div class="flash_news_label_div heading_label">Flash News</div>
+        <div class="flash_news-wrap">
+            <div class="flash_news-move">
+            </div>
+        </div>
+        <div class="flash_news_label_div date_label"></div>
+    </div>
+    <div class="news_content_parent_div">
+        <div class="news_category_nav_div">
+            <a href="#" onclick="FetchTheTopHeadlines_onTheBasisOfSource('general')">General</a>
+            <a href="#" onclick="FetchTheTopHeadlines_onTheBasisOfSource('health')">Health</a>
+            <a href="#" onclick="FetchTheTopHeadlines_onTheBasisOfSource('sports')">Sports</a>
+            <a href="#" onclick="FetchTheTopHeadlines_onTheBasisOfSource('science')">Science</a>
+            <a href="#" onclick="FetchTheTopHeadlines_onTheBasisOfSource('entertainment')">Entertainment</a>
+            <a href="#" onclick="FetchTheTopHeadlines_onTheBasisOfSource('technology')">Technology</a>
+            <a href="#" onclick="FetchTheTopHeadlines_onTheBasisOfSource('business')">Business</a>
+        </div>
+        <div class="news_content_data_div">
+            <div class="news_stories_cards_div">
+                <div class="news_stories_cards_container_div"></div>
+            </div>
+            <div class="headlines_cards_parent_div">
+                <div class="headline_cards_block_div Div">
+                    <div class="headline_cards_heading_label_div">
+                        Top Headlines
+                    </div>
+                    <div class="headline_cards_container_div">
+                        <!-- <div class="headline_card_div">
+                            <div class="Label Heading">
+                                <a href="" class="HeadingLink">DDDD</a>
+                            </div>
+                            <div class="ImagePanel">
+                                <img class="ImageBanner" src="3000.jpeg" alt="news_IMGcal">
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- <div class="CardsDiv">
+        <div class="Div 1D">1jhasjh dashdhak sjdhksjhdaksdh kjhjk</div>
+        <div class="Div Card">
+            <div class="ImagePanel">
+                <img class="ImageBanner" src='3000.jpeg' alt="news_IMGcal">
+            </div>
+            <div class="Label Heading">
+                <a href="https://codepen.io/yayMark/pen/nthFo" class="HeadingLink">ICC 2020 WC date released ICC 2020 WC date released.ICC 2020 WC date released.</a>
+            </div>
+            <div class="Label Description">
+                According to The Sydney Morning Herald, Siraj didn`t spend much time in front of section 215 and 216 at the Gabba on Friday, but that`s where a spectator -- who asked to be identified only by first name - said that the fast bowler was repeatedly called a "grub" by vocal spectators.
+            </div>
+        </div>
+        <div class="Div Card">
+        </div>
+        <div class="Div 1D">4</div>
+        <div class="Div 1D">5</div>
+        <div class="Div 1D">6</div>
+        <div class="Div 1D">4</div>
+        <div class="Div 1D">5</div>
+
+    </div> -->
+</body>
